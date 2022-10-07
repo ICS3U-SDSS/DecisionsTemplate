@@ -30,8 +30,6 @@ namespace Decisions
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.driveButton = new System.Windows.Forms.Button();
-            this.driveOutput = new System.Windows.Forms.Label();
             this.voteButton = new System.Windows.Forms.Button();
             this.voteOutput = new System.Windows.Forms.Label();
             this.ageLabel = new System.Windows.Forms.Label();
@@ -52,31 +50,10 @@ namespace Decisions
             this.yearLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // driveButton
-            // 
-            this.driveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.driveButton.Location = new System.Drawing.Point(314, 28);
-            this.driveButton.Name = "driveButton";
-            this.driveButton.Size = new System.Drawing.Size(88, 30);
-            this.driveButton.TabIndex = 0;
-            this.driveButton.Text = "DRIVE";
-            this.driveButton.UseVisualStyleBackColor = true;
-            this.driveButton.Click += new System.EventHandler(this.driveButton_Click);
-            // 
-            // driveOutput
-            // 
-            this.driveOutput.BackColor = System.Drawing.Color.White;
-            this.driveOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.driveOutput.Location = new System.Drawing.Point(417, 28);
-            this.driveOutput.Name = "driveOutput";
-            this.driveOutput.Size = new System.Drawing.Size(388, 30);
-            this.driveOutput.TabIndex = 1;
-            this.driveOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // voteButton
             // 
             this.voteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.voteButton.Location = new System.Drawing.Point(314, 89);
+            this.voteButton.Location = new System.Drawing.Point(310, 37);
             this.voteButton.Name = "voteButton";
             this.voteButton.Size = new System.Drawing.Size(88, 29);
             this.voteButton.TabIndex = 2;
@@ -88,7 +65,7 @@ namespace Decisions
             // 
             this.voteOutput.BackColor = System.Drawing.Color.White;
             this.voteOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.voteOutput.Location = new System.Drawing.Point(417, 89);
+            this.voteOutput.Location = new System.Drawing.Point(413, 37);
             this.voteOutput.Name = "voteOutput";
             this.voteOutput.Size = new System.Drawing.Size(388, 29);
             this.voteOutput.TabIndex = 3;
@@ -98,7 +75,7 @@ namespace Decisions
             // 
             this.ageLabel.AutoSize = true;
             this.ageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ageLabel.Location = new System.Drawing.Point(84, 92);
+            this.ageLabel.Location = new System.Drawing.Point(80, 40);
             this.ageLabel.Name = "ageLabel";
             this.ageLabel.Size = new System.Drawing.Size(145, 24);
             this.ageLabel.TabIndex = 4;
@@ -107,7 +84,7 @@ namespace Decisions
             // ageInput
             // 
             this.ageInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ageInput.Location = new System.Drawing.Point(235, 89);
+            this.ageInput.Location = new System.Drawing.Point(231, 37);
             this.ageInput.Name = "ageInput";
             this.ageInput.Size = new System.Drawing.Size(60, 29);
             this.ageInput.TabIndex = 5;
@@ -115,7 +92,7 @@ namespace Decisions
             // workButton
             // 
             this.workButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.workButton.Location = new System.Drawing.Point(314, 153);
+            this.workButton.Location = new System.Drawing.Point(310, 101);
             this.workButton.Name = "workButton";
             this.workButton.Size = new System.Drawing.Size(88, 29);
             this.workButton.TabIndex = 6;
@@ -127,7 +104,7 @@ namespace Decisions
             // 
             this.workOutput.BackColor = System.Drawing.Color.White;
             this.workOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.workOutput.Location = new System.Drawing.Point(417, 153);
+            this.workOutput.Location = new System.Drawing.Point(413, 101);
             this.workOutput.Name = "workOutput";
             this.workOutput.Size = new System.Drawing.Size(388, 29);
             this.workOutput.TabIndex = 7;
@@ -137,7 +114,7 @@ namespace Decisions
             // 
             this.hoursLabel.AutoSize = true;
             this.hoursLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hoursLabel.Location = new System.Drawing.Point(42, 153);
+            this.hoursLabel.Location = new System.Drawing.Point(38, 101);
             this.hoursLabel.Name = "hoursLabel";
             this.hoursLabel.Size = new System.Drawing.Size(187, 24);
             this.hoursLabel.TabIndex = 8;
@@ -146,7 +123,7 @@ namespace Decisions
             // hoursInput
             // 
             this.hoursInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hoursInput.Location = new System.Drawing.Point(235, 152);
+            this.hoursInput.Location = new System.Drawing.Point(231, 100);
             this.hoursInput.Name = "hoursInput";
             this.hoursInput.Size = new System.Drawing.Size(60, 29);
             this.hoursInput.TabIndex = 9;
@@ -155,7 +132,7 @@ namespace Decisions
             // 
             this.num1Label.AutoSize = true;
             this.num1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num1Label.Location = new System.Drawing.Point(15, 218);
+            this.num1Label.Location = new System.Drawing.Point(11, 166);
             this.num1Label.Name = "num1Label";
             this.num1Label.Size = new System.Drawing.Size(71, 24);
             this.num1Label.TabIndex = 10;
@@ -164,7 +141,7 @@ namespace Decisions
             // num1Input
             // 
             this.num1Input.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num1Input.Location = new System.Drawing.Point(92, 213);
+            this.num1Input.Location = new System.Drawing.Point(88, 161);
             this.num1Input.Name = "num1Input";
             this.num1Input.Size = new System.Drawing.Size(60, 29);
             this.num1Input.TabIndex = 11;
@@ -172,7 +149,7 @@ namespace Decisions
             // num2Input
             // 
             this.num2Input.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num2Input.Location = new System.Drawing.Point(235, 211);
+            this.num2Input.Location = new System.Drawing.Point(231, 159);
             this.num2Input.Name = "num2Input";
             this.num2Input.Size = new System.Drawing.Size(60, 29);
             this.num2Input.TabIndex = 13;
@@ -181,16 +158,16 @@ namespace Decisions
             // 
             this.num2Label.AutoSize = true;
             this.num2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num2Label.Location = new System.Drawing.Point(158, 216);
+            this.num2Label.Location = new System.Drawing.Point(154, 164);
             this.num2Label.Name = "num2Label";
             this.num2Label.Size = new System.Drawing.Size(71, 24);
             this.num2Label.TabIndex = 12;
-            this.num2Label.Text = "Num 1:";
+            this.num2Label.Text = "Num 2:";
             // 
             // maxButton
             // 
             this.maxButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxButton.Location = new System.Drawing.Point(314, 212);
+            this.maxButton.Location = new System.Drawing.Point(310, 160);
             this.maxButton.Name = "maxButton";
             this.maxButton.Size = new System.Drawing.Size(88, 29);
             this.maxButton.TabIndex = 14;
@@ -202,7 +179,7 @@ namespace Decisions
             // 
             this.maxOutput.BackColor = System.Drawing.Color.White;
             this.maxOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxOutput.Location = new System.Drawing.Point(417, 211);
+            this.maxOutput.Location = new System.Drawing.Point(413, 159);
             this.maxOutput.Name = "maxOutput";
             this.maxOutput.Size = new System.Drawing.Size(388, 29);
             this.maxOutput.TabIndex = 15;
@@ -211,7 +188,7 @@ namespace Decisions
             // yearButton
             // 
             this.yearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yearButton.Location = new System.Drawing.Point(314, 275);
+            this.yearButton.Location = new System.Drawing.Point(310, 223);
             this.yearButton.Name = "yearButton";
             this.yearButton.Size = new System.Drawing.Size(88, 29);
             this.yearButton.TabIndex = 16;
@@ -223,7 +200,7 @@ namespace Decisions
             // 
             this.yearOutput.BackColor = System.Drawing.Color.White;
             this.yearOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yearOutput.Location = new System.Drawing.Point(417, 275);
+            this.yearOutput.Location = new System.Drawing.Point(413, 223);
             this.yearOutput.Name = "yearOutput";
             this.yearOutput.Size = new System.Drawing.Size(388, 29);
             this.yearOutput.TabIndex = 17;
@@ -232,7 +209,7 @@ namespace Decisions
             // yearInput
             // 
             this.yearInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yearInput.Location = new System.Drawing.Point(235, 275);
+            this.yearInput.Location = new System.Drawing.Point(231, 223);
             this.yearInput.Name = "yearInput";
             this.yearInput.Size = new System.Drawing.Size(60, 29);
             this.yearInput.TabIndex = 18;
@@ -241,7 +218,7 @@ namespace Decisions
             // 
             this.yearLabel.AutoSize = true;
             this.yearLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yearLabel.Location = new System.Drawing.Point(110, 278);
+            this.yearLabel.Location = new System.Drawing.Point(106, 226);
             this.yearLabel.Name = "yearLabel";
             this.yearLabel.Size = new System.Drawing.Size(119, 24);
             this.yearLabel.TabIndex = 19;
@@ -251,7 +228,7 @@ namespace Decisions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 336);
+            this.ClientSize = new System.Drawing.Size(832, 299);
             this.Controls.Add(this.yearLabel);
             this.Controls.Add(this.yearInput);
             this.Controls.Add(this.yearOutput);
@@ -270,8 +247,6 @@ namespace Decisions
             this.Controls.Add(this.ageLabel);
             this.Controls.Add(this.voteOutput);
             this.Controls.Add(this.voteButton);
-            this.Controls.Add(this.driveOutput);
-            this.Controls.Add(this.driveButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -282,9 +257,6 @@ namespace Decisions
         }
 
         #endregion
-
-        private System.Windows.Forms.Button driveButton;
-        private System.Windows.Forms.Label driveOutput;
         private System.Windows.Forms.Button voteButton;
         private System.Windows.Forms.Label voteOutput;
         private System.Windows.Forms.Label ageLabel;

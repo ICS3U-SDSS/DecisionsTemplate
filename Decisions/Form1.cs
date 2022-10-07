@@ -17,14 +17,6 @@ namespace Decisions
             InitializeComponent();
         }
 
-        private void driveButton_Click(object sender, EventArgs e)
-        {
-            /// Create an if statement to check age and display a 
-            /// message stating "You can drive now" if age is 16. 
-            /// If not 16 then display, "You are not 16".
-          
-
-        }
 
         private void ageButton_Click(object sender, EventArgs e)
         {
