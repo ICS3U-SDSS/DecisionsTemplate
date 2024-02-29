@@ -20,44 +20,41 @@ namespace Decisions
 
         private void ageButton_Click(object sender, EventArgs e)
         {
-            /// Create a variable to hold a person's age. Then use 
-            /// that variable to determine if the person is old 
-            /// enough to vote. Display an appropriate message based
-            /// on whether they can or can't vote            
-           
+            /* Create a variable to hold a person's age. Then use that variable
+               to determine if the person is old enough to play a game
+               that requires the user to be 18 or older. Display an
+               appropriate message based on whether they can or can't vote            
+             */
+
 
         }
 
-        private void workButton_Click(object sender, EventArgs e)
+        private void xpButton_Click(object sender, EventArgs e)
         {
-            /// Create a program that determines how many overtime 
-            /// hours an employee has worked. Any hours over 40 is 
-            /// considered overtime. Make sure that your output matches
-            /// the sample output below exactly.
-            ///
-            /// Sample Output for 15 hours:
-            /// You worked 15 hours
-            /// 
-            /// Sample output for 45 hours:
-            /// You worked 40 hours plus 5 hours overtime
-
-      
-
+            /*  Create a variable to hold the xp gained in a level. If the 
+             *  player gained over 100 xp then they get double the xp for 
+             *  each xp gained over 100.
+             *  
+             *  Sample output for input 80
+             *  You gained 80 xp
+             *  
+             *  Sample output for input 120
+             *  You gained 140 xp
+             */
+             
         }
 
         private void maxButton_Click(object sender, EventArgs e)
         {
-            /// Create a program that determines the max value 
-            /// between 2 values inputted by the user. The output 
-            /// should match the following:
-            /// 
-            /// Sample output for inputs 34, 12
-            /// The max value is: 34
-            /// 
-            /// Sample output for inputs 22, 77
-            /// The max value is: 77
-            
+            /* Create a program that determines the max value between 2 values 
+               inputted by the user. The output should match the following:
 
+               Sample output for inputs 34, 12
+               The max value is: 34
+
+               Sample output for inputs 22, 77
+               The max value is: 77
+            */
         }
 
         private void yearButton_Click(object sender, EventArgs e)
@@ -73,5 +70,7 @@ namespace Decisions
            
 
         }
+
+
     }
 }

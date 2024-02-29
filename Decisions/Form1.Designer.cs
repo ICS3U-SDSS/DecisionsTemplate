@@ -30,14 +30,14 @@ namespace Decisions
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.voteButton = new System.Windows.Forms.Button();
-            this.voteOutput = new System.Windows.Forms.Label();
+            this.ageButton = new System.Windows.Forms.Button();
+            this.ageOutput = new System.Windows.Forms.Label();
             this.ageLabel = new System.Windows.Forms.Label();
             this.ageInput = new System.Windows.Forms.TextBox();
-            this.workButton = new System.Windows.Forms.Button();
-            this.workOutput = new System.Windows.Forms.Label();
-            this.hoursLabel = new System.Windows.Forms.Label();
-            this.hoursInput = new System.Windows.Forms.TextBox();
+            this.xpButton = new System.Windows.Forms.Button();
+            this.xpOutput = new System.Windows.Forms.Label();
+            this.xpLabel = new System.Windows.Forms.Label();
+            this.xpInput = new System.Windows.Forms.TextBox();
             this.num1Label = new System.Windows.Forms.Label();
             this.num1Input = new System.Windows.Forms.TextBox();
             this.num2Input = new System.Windows.Forms.TextBox();
@@ -50,26 +50,26 @@ namespace Decisions
             this.yearLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // voteButton
+            // ageButton
             // 
-            this.voteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.voteButton.Location = new System.Drawing.Point(310, 37);
-            this.voteButton.Name = "voteButton";
-            this.voteButton.Size = new System.Drawing.Size(88, 29);
-            this.voteButton.TabIndex = 2;
-            this.voteButton.Text = "VOTE";
-            this.voteButton.UseVisualStyleBackColor = true;
-            this.voteButton.Click += new System.EventHandler(this.ageButton_Click);
+            this.ageButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ageButton.Location = new System.Drawing.Point(310, 37);
+            this.ageButton.Name = "ageButton";
+            this.ageButton.Size = new System.Drawing.Size(88, 29);
+            this.ageButton.TabIndex = 2;
+            this.ageButton.Text = "AGE";
+            this.ageButton.UseVisualStyleBackColor = true;
+            this.ageButton.Click += new System.EventHandler(this.ageButton_Click);
             // 
-            // voteOutput
+            // ageOutput
             // 
-            this.voteOutput.BackColor = System.Drawing.Color.White;
-            this.voteOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.voteOutput.Location = new System.Drawing.Point(413, 37);
-            this.voteOutput.Name = "voteOutput";
-            this.voteOutput.Size = new System.Drawing.Size(388, 29);
-            this.voteOutput.TabIndex = 3;
-            this.voteOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ageOutput.BackColor = System.Drawing.Color.White;
+            this.ageOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ageOutput.Location = new System.Drawing.Point(413, 37);
+            this.ageOutput.Name = "ageOutput";
+            this.ageOutput.Size = new System.Drawing.Size(388, 29);
+            this.ageOutput.TabIndex = 3;
+            this.ageOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ageLabel
             // 
@@ -89,44 +89,44 @@ namespace Decisions
             this.ageInput.Size = new System.Drawing.Size(60, 29);
             this.ageInput.TabIndex = 5;
             // 
-            // workButton
+            // xpButton
             // 
-            this.workButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.workButton.Location = new System.Drawing.Point(310, 101);
-            this.workButton.Name = "workButton";
-            this.workButton.Size = new System.Drawing.Size(88, 29);
-            this.workButton.TabIndex = 6;
-            this.workButton.Text = "WORK";
-            this.workButton.UseVisualStyleBackColor = true;
-            this.workButton.Click += new System.EventHandler(this.workButton_Click);
+            this.xpButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xpButton.Location = new System.Drawing.Point(310, 101);
+            this.xpButton.Name = "xpButton";
+            this.xpButton.Size = new System.Drawing.Size(88, 29);
+            this.xpButton.TabIndex = 6;
+            this.xpButton.Text = "XP";
+            this.xpButton.UseVisualStyleBackColor = true;
+            this.xpButton.Click += new System.EventHandler(this.xpButton_Click);
             // 
-            // workOutput
+            // xpOutput
             // 
-            this.workOutput.BackColor = System.Drawing.Color.White;
-            this.workOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.workOutput.Location = new System.Drawing.Point(413, 101);
-            this.workOutput.Name = "workOutput";
-            this.workOutput.Size = new System.Drawing.Size(388, 29);
-            this.workOutput.TabIndex = 7;
-            this.workOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.xpOutput.BackColor = System.Drawing.Color.White;
+            this.xpOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xpOutput.Location = new System.Drawing.Point(413, 101);
+            this.xpOutput.Name = "xpOutput";
+            this.xpOutput.Size = new System.Drawing.Size(388, 29);
+            this.xpOutput.TabIndex = 7;
+            this.xpOutput.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // hoursLabel
+            // xpLabel
             // 
-            this.hoursLabel.AutoSize = true;
-            this.hoursLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hoursLabel.Location = new System.Drawing.Point(38, 101);
-            this.hoursLabel.Name = "hoursLabel";
-            this.hoursLabel.Size = new System.Drawing.Size(187, 24);
-            this.hoursLabel.TabIndex = 8;
-            this.hoursLabel.Text = "Enter Hours Worked:";
+            this.xpLabel.AutoSize = true;
+            this.xpLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xpLabel.Location = new System.Drawing.Point(68, 101);
+            this.xpLabel.Name = "xpLabel";
+            this.xpLabel.Size = new System.Drawing.Size(157, 24);
+            this.xpLabel.TabIndex = 8;
+            this.xpLabel.Text = "Enter XP Gained:";
             // 
-            // hoursInput
+            // xpInput
             // 
-            this.hoursInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hoursInput.Location = new System.Drawing.Point(231, 100);
-            this.hoursInput.Name = "hoursInput";
-            this.hoursInput.Size = new System.Drawing.Size(60, 29);
-            this.hoursInput.TabIndex = 9;
+            this.xpInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xpInput.Location = new System.Drawing.Point(231, 100);
+            this.xpInput.Name = "xpInput";
+            this.xpInput.Size = new System.Drawing.Size(60, 29);
+            this.xpInput.TabIndex = 9;
             // 
             // num1Label
             // 
@@ -239,14 +239,14 @@ namespace Decisions
             this.Controls.Add(this.num2Label);
             this.Controls.Add(this.num1Input);
             this.Controls.Add(this.num1Label);
-            this.Controls.Add(this.hoursInput);
-            this.Controls.Add(this.hoursLabel);
-            this.Controls.Add(this.workOutput);
-            this.Controls.Add(this.workButton);
+            this.Controls.Add(this.xpInput);
+            this.Controls.Add(this.xpLabel);
+            this.Controls.Add(this.xpOutput);
+            this.Controls.Add(this.xpButton);
             this.Controls.Add(this.ageInput);
             this.Controls.Add(this.ageLabel);
-            this.Controls.Add(this.voteOutput);
-            this.Controls.Add(this.voteButton);
+            this.Controls.Add(this.ageOutput);
+            this.Controls.Add(this.ageButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -257,14 +257,14 @@ namespace Decisions
         }
 
         #endregion
-        private System.Windows.Forms.Button voteButton;
-        private System.Windows.Forms.Label voteOutput;
+        private System.Windows.Forms.Button ageButton;
+        private System.Windows.Forms.Label ageOutput;
         private System.Windows.Forms.Label ageLabel;
         private System.Windows.Forms.TextBox ageInput;
-        private System.Windows.Forms.Button workButton;
-        private System.Windows.Forms.Label workOutput;
-        private System.Windows.Forms.Label hoursLabel;
-        private System.Windows.Forms.TextBox hoursInput;
+        private System.Windows.Forms.Button xpButton;
+        private System.Windows.Forms.Label xpOutput;
+        private System.Windows.Forms.Label xpLabel;
+        private System.Windows.Forms.TextBox xpInput;
         private System.Windows.Forms.Label num1Label;
         private System.Windows.Forms.TextBox num1Input;
         private System.Windows.Forms.TextBox num2Input;
