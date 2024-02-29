@@ -23,7 +23,7 @@ namespace Decisions
             /* Create a variable to hold a person's age. Then use that variable
                to determine if the person is old enough to play a game
                that requires the user to be 18 or older. Display an
-               appropriate message based on whether they can or can't vote            
+               appropriate message based on the age            
              */
 
 
