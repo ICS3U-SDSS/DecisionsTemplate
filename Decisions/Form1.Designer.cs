@@ -92,7 +92,7 @@ namespace Decisions
             // xpButton
             // 
             this.xpButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xpButton.Location = new System.Drawing.Point(310, 101);
+            this.xpButton.Location = new System.Drawing.Point(310, 225);
             this.xpButton.Name = "xpButton";
             this.xpButton.Size = new System.Drawing.Size(88, 29);
             this.xpButton.TabIndex = 6;
@@ -104,7 +104,7 @@ namespace Decisions
             // 
             this.xpOutput.BackColor = System.Drawing.Color.White;
             this.xpOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xpOutput.Location = new System.Drawing.Point(413, 101);
+            this.xpOutput.Location = new System.Drawing.Point(413, 225);
             this.xpOutput.Name = "xpOutput";
             this.xpOutput.Size = new System.Drawing.Size(388, 29);
             this.xpOutput.TabIndex = 7;
@@ -114,7 +114,7 @@ namespace Decisions
             // 
             this.xpLabel.AutoSize = true;
             this.xpLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xpLabel.Location = new System.Drawing.Point(68, 101);
+            this.xpLabel.Location = new System.Drawing.Point(68, 225);
             this.xpLabel.Name = "xpLabel";
             this.xpLabel.Size = new System.Drawing.Size(157, 24);
             this.xpLabel.TabIndex = 8;
@@ -123,7 +123,7 @@ namespace Decisions
             // xpInput
             // 
             this.xpInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xpInput.Location = new System.Drawing.Point(231, 100);
+            this.xpInput.Location = new System.Drawing.Point(231, 224);
             this.xpInput.Name = "xpInput";
             this.xpInput.Size = new System.Drawing.Size(60, 29);
             this.xpInput.TabIndex = 9;
@@ -132,7 +132,7 @@ namespace Decisions
             // 
             this.num1Label.AutoSize = true;
             this.num1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num1Label.Location = new System.Drawing.Point(11, 166);
+            this.num1Label.Location = new System.Drawing.Point(11, 104);
             this.num1Label.Name = "num1Label";
             this.num1Label.Size = new System.Drawing.Size(71, 24);
             this.num1Label.TabIndex = 10;
@@ -141,7 +141,7 @@ namespace Decisions
             // num1Input
             // 
             this.num1Input.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num1Input.Location = new System.Drawing.Point(88, 161);
+            this.num1Input.Location = new System.Drawing.Point(88, 99);
             this.num1Input.Name = "num1Input";
             this.num1Input.Size = new System.Drawing.Size(60, 29);
             this.num1Input.TabIndex = 11;
@@ -149,7 +149,7 @@ namespace Decisions
             // num2Input
             // 
             this.num2Input.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num2Input.Location = new System.Drawing.Point(231, 159);
+            this.num2Input.Location = new System.Drawing.Point(231, 97);
             this.num2Input.Name = "num2Input";
             this.num2Input.Size = new System.Drawing.Size(60, 29);
             this.num2Input.TabIndex = 13;
@@ -158,7 +158,7 @@ namespace Decisions
             // 
             this.num2Label.AutoSize = true;
             this.num2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num2Label.Location = new System.Drawing.Point(154, 164);
+            this.num2Label.Location = new System.Drawing.Point(154, 102);
             this.num2Label.Name = "num2Label";
             this.num2Label.Size = new System.Drawing.Size(71, 24);
             this.num2Label.TabIndex = 12;
@@ -167,7 +167,7 @@ namespace Decisions
             // maxButton
             // 
             this.maxButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxButton.Location = new System.Drawing.Point(310, 160);
+            this.maxButton.Location = new System.Drawing.Point(310, 98);
             this.maxButton.Name = "maxButton";
             this.maxButton.Size = new System.Drawing.Size(88, 29);
             this.maxButton.TabIndex = 14;
@@ -179,7 +179,7 @@ namespace Decisions
             // 
             this.maxOutput.BackColor = System.Drawing.Color.White;
             this.maxOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxOutput.Location = new System.Drawing.Point(413, 159);
+            this.maxOutput.Location = new System.Drawing.Point(413, 97);
             this.maxOutput.Name = "maxOutput";
             this.maxOutput.Size = new System.Drawing.Size(388, 29);
             this.maxOutput.TabIndex = 15;
@@ -188,7 +188,7 @@ namespace Decisions
             // yearButton
             // 
             this.yearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yearButton.Location = new System.Drawing.Point(310, 223);
+            this.yearButton.Location = new System.Drawing.Point(310, 161);
             this.yearButton.Name = "yearButton";
             this.yearButton.Size = new System.Drawing.Size(88, 29);
             this.yearButton.TabIndex = 16;
@@ -200,7 +200,7 @@ namespace Decisions
             // 
             this.yearOutput.BackColor = System.Drawing.Color.White;
             this.yearOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yearOutput.Location = new System.Drawing.Point(413, 223);
+            this.yearOutput.Location = new System.Drawing.Point(413, 161);
             this.yearOutput.Name = "yearOutput";
             this.yearOutput.Size = new System.Drawing.Size(388, 29);
             this.yearOutput.TabIndex = 17;
@@ -209,7 +209,7 @@ namespace Decisions
             // yearInput
             // 
             this.yearInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yearInput.Location = new System.Drawing.Point(231, 223);
+            this.yearInput.Location = new System.Drawing.Point(231, 161);
             this.yearInput.Name = "yearInput";
             this.yearInput.Size = new System.Drawing.Size(60, 29);
             this.yearInput.TabIndex = 18;
@@ -218,7 +218,7 @@ namespace Decisions
             // 
             this.yearLabel.AutoSize = true;
             this.yearLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yearLabel.Location = new System.Drawing.Point(106, 226);
+            this.yearLabel.Location = new System.Drawing.Point(106, 164);
             this.yearLabel.Name = "yearLabel";
             this.yearLabel.Size = new System.Drawing.Size(119, 24);
             this.yearLabel.TabIndex = 19;
@@ -228,6 +228,7 @@ namespace Decisions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.ClientSize = new System.Drawing.Size(832, 299);
             this.Controls.Add(this.yearLabel);
             this.Controls.Add(this.yearInput);

@@ -29,21 +29,6 @@ namespace Decisions
 
         }
 
-        private void xpButton_Click(object sender, EventArgs e)
-        {
-            /*  Create a variable to hold the xp gained in a level. If the 
-             *  player gained over 100 xp then they get double the xp for 
-             *  each xp gained over 100.
-             *  
-             *  Sample output for input 80
-             *  You gained 80 xp
-             *  
-             *  Sample output for input 120
-             *  You gained 140 xp
-             */
-             
-        }
-
         private void maxButton_Click(object sender, EventArgs e)
         {
             /* Create a program that determines the max value between 2 values 
@@ -71,6 +56,20 @@ namespace Decisions
 
         }
 
+        private void xpButton_Click(object sender, EventArgs e)
+        {
+            /*  Create a variable to hold the xp gained in a level. If the 
+             *  player gained over 100 xp then they get double the xp for 
+             *  each xp gained over 100.
+             *  
+             *  Sample output for input 80
+             *  You gained 80 xp
+             *  
+             *  Sample output for input 120
+             *  You gained 140 xp
+             */
+
+        }
 
     }
 }
